@@ -9,3 +9,6 @@
   - ✔️ Базовий SCSS
   - ✔️ Дошка Trello
   - ✔️ Header html
+  - ✔️ HTML hero
+  - ✔️ HTML mobile
+  - ✔️ HTML "Our projects"
