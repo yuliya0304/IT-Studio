@@ -13,3 +13,6 @@
 - ✔️ HTML mobile
 - ✔️ HTML "Our projects"
 - ✔️ SVG
+- ✔️ GLOBAL STYLES
+- ✔️ TITLE
+- ✔️ BUTTON
