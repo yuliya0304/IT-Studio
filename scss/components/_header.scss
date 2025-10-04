@@ -1,0 +1,32 @@
+@use '../utils/variables' as *;
+.header{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid $header-border;
+    /*position: fixed;*/
+    background: black;
+
+    &__container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__list{
+        display: flex;
+    }
+    &__link{
+        padding-inline: 20px;
+        color: $secondary-text-color;
+        font-weight: 500;
+        position: relative;
+        &--current::before{
+            content: "";
+            width: 107px;
+            height: 2px;
+            display: block;
+            position: absolute;
+            background-color: $secondary-text-color;
+            bottom: -40px;
+            left: 0;
+        }
+    }
+}
