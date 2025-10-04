@@ -138,8 +138,15 @@ button {
 
 a {
 	text-decoration: none;
+	display: inline-block;
 }
 
 button {
 	font-family: inherit;
+}
+* {
+	box-sizing: border-box;
+}
+img {
+	display: block;
 }

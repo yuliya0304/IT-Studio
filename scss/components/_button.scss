@@ -1,0 +1,16 @@
+@use '../utils/variables' as *;
+
+// =================
+// BUTTON STYLES
+// =================
+
+.button {
+	background-color: $accent-color;
+	color: inherit;
+	border-radius: 30px;
+	padding: 14px 42px;
+	font-weight: 500;
+	font-size: 16px;
+	border: 0;
+	line-height: 1;
+}

@@ -134,8 +134,49 @@ button {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 button {
   font-family: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: rgb(73, 133, 255);
+  color: inherit;
+  border-radius: 30px;
+  padding: 14px 42px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 0;
+  line-height: 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  line-height: 1.46;
+  color: rgb(50, 50, 50);
 }/*# sourceMappingURL=main.css.map */

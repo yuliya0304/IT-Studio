@@ -1,0 +1,14 @@
+@use '../utils/variables' as *;
+
+// =================
+// TITLE STYLES
+// =================
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1;
+	text-align: center;
+	line-height: 1.46;
+	color: $main-text-color;
+}
