@@ -1,0 +1,27 @@
+@use '../utils/variables' as *;
+
+.hero {
+    background-image: url(../images/desktop/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 259px;
+    padding-bottom: 339px;
+    height: 100vh;
+    text-align: center;
+
+    &__title {
+        font-size: 48px;
+        color: $secondary-text-color;
+        line-height: 1.34;
+        font-weight: 800;
+        padding-bottom: 50px;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        padding-bottom: 20px;
+        color: $secondary-text-color;
+    }
+}

@@ -1,19 +1,7 @@
-// =================
-// BASE STYLES
-// =================
-
+@use './utils/variables';
 @use './base/reset';
 @use './base/global';
-
-// =================
-// COMPONENTS STYLES
-// =================
 @use './components/button';
 @use './components/title';
 @use './components/header';
-
-// =================
-// UTILS STYLES
-// =================
-
-@use './utils/variables';
+@use './components/hero';
