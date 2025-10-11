@@ -17,3 +17,4 @@
 - ✔️ TITLE
 - ✔️ BUTTON
 - ✔️ Header CSS
+- ✔️ Video CSS

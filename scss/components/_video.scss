@@ -28,9 +28,10 @@
         font-size: 16px;
         line-height: 1.58;
         background-color: transparent;
-        border: 1px solid $main-border-color;
+        border: 1px solid $secondary-text-color;
         border-radius: 200px;
         padding: 20px 40px;
         color: $secondary-text-color;
+        /* Як поставити текст по центру? */
     }
 }
