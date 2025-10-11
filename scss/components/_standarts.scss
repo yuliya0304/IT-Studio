@@ -1,0 +1,64 @@
+@use "../utils/variables" as *;
+
+.standarts {
+  background-color: $background-color;
+  padding-top: 100px;
+  padding-bottom: 70px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 121px;
+    align-items: center;
+    border-bottom: 1px solid $main-border-color;
+    padding-bottom: 90px;
+  }
+
+ &__link {
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 1;
+    color: $accent-color;
+  }
+
+  &__desc {
+    padding-top: 60px;
+    padding-bottom: 42px;
+    font-size: 16px;
+    color: $subtitle-color;
+    width: 489px;
+  }
+
+  &__img {
+    box-shadow: 0 0 10px 0 $box-shadow-color;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    fill: $accent-color;
+  }
+
+  &__item-title {
+    font-family: $main-font;
+    font-size: 36px;
+    color: $title-color;
+    display: inline-block;
+    padding-left: 20px;
+  }
+
+  &__item-desc {
+    font-size: 16px;
+    color: $subtitle-color;
+  }
+}

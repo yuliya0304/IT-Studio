@@ -134,6 +134,8 @@ table {
 
 button {
 	cursor: pointer;
+	font-family: inherit;
+	display: inline-block;
 }
 
 a {
@@ -141,9 +143,7 @@ a {
 	display: inline-block;
 }
 
-button {
-	font-family: inherit;
-}
+
 * {
 	box-sizing: border-box;
 }
