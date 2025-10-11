@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -153,6 +154,7 @@ body {
   font-size: 14px;
   color: rgb(50, 50, 50);
   font-family: "Montserrat", sans-serif;
+  line-height: 1.58;
 }
 
 .container {
@@ -236,6 +238,53 @@ body {
   color: rgb(255, 255, 255);
 }
 
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__icon {
+  width: 15px;
+  height: 15px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+}
+.footer__link {
+  line-height: 158%;
+  color: rgb(50, 50, 50);
+}
+.footer__copyright {
+  font-size: 13px;
+  line-height: 158%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
+}
 .subscribe {
   background: #fff;
   padding-top: 85px;

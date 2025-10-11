@@ -24,11 +24,10 @@
     }
 
     &__title {
-        font-family: $main-font;
-        font-size: 32px;
-        font-weight: 700;
-        margin-bottom: 18px;
-        color: $title-color; 
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   color: $main-text-color;
     }
 
     &__desc {
@@ -45,11 +44,12 @@
         display: flex;
         width: 489px;
         height: 45px;
-        box-shadow: 0 0 10px #6F6F6F40;
-        overflow: hidden;
-        align-items: center;
-        border: none; 
-        border-radius: 40px; 
+    background: #fff;
+    border: none;
+    box-shadow: 0 0 10px #6F6F6F40;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-bottom: 24px;
 
         .subscribe__input {
             flex: 1 1 auto;
@@ -80,7 +80,11 @@
             border-radius: 0 40px 40px 0;
             cursor: pointer;
             transition: background 0.2s;
-            box-shadow: 0 0 10px #6f6f6f40;
+
+            box-shadow: 0 0 10px #6F6F6F40;
+            &:hover {
+                background: darken($accent-color, 10%);
+            }
         }
     }
 
