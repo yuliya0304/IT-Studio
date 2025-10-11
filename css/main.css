@@ -154,6 +154,7 @@ body {
   font-size: 14px;
   color: rgb(50, 50, 50);
   font-family: "Montserrat", sans-serif;
+  line-height: 1.58;
 }
 
 .container {
@@ -237,36 +238,97 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.video {
-  padding-top: 70px;
-  padding-bottom: 85px;
+.subscribe {
+  background: #fff;
+  padding: 60px 0 0 0;
   text-align: center;
-  color: rgb(255, 255, 255);
-  /* Тим часавом */
-  background-color: #000;
+  font-weight: 400;
 }
-.video__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.46;
-  padding-bottom: 30px;
+.subscribe__container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.video__desc {
-  line-height: 1.58;
+.subscribe__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(50, 50, 50);
+}
+.subscribe__desc {
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  padding-bottom: 70px;
+  line-height: 158%;
+  letter-spacing: 0;
+  color: rgb(153, 153, 153);
+  text-align: center;
+  margin-bottom: 30px;
 }
-.video__img {
-  background-color: #000;
+.subscribe__form {
+  display: flex;
+  width: 489px;
+  height: 45px;
+  background: #fff;
+  border: none;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.2509803922);
+  border-radius: 40px;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
-.video__btn {
-  font-weight: 500;
+.subscribe__form .subscribe__input {
+  width: auto;
+  height: 45px;
+  flex: 1 1 auto;
+  border: none;
+  outline: none;
+  padding: 20px 28px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 158%;
+  letter-spacing: 0;
+  border-radius: 40px 0 0 40px;
+  background: #fff;
+  color: rgb(50, 50, 50);
+}
+.subscribe__form .subscribe__input::-moz-placeholder {
+  color: rgb(153, 153, 153);
+  opacity: 1;
+}
+.subscribe__form .subscribe__input::placeholder {
+  color: rgb(153, 153, 153);
+  opacity: 1;
+}
+.subscribe__form .subscribe__btn {
+  background: rgb(73, 133, 255);
+  color: #fff;
+  border: none;
+  width: 190px;
+  height: 45px;
+  flex: none;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  line-height: 1.58;
-  background-color: transparent;
-  border: 1px solid rgb(224, 224, 224);
-  border-radius: 200px;
-  padding: 20px 40px;
-  color: rgb(255, 255, 255);
-  /* Як поставити текст по центру? */
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.2509803922);
+}
+.subscribe__form .subscribe__btn:hover {
+  background: rgb(22, 98.8131868132, 255);
+}
+.subscribe__sub {
+  color: rgb(50, 50, 50);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 158%;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.6;
+  padding-bottom: 85px;
 }

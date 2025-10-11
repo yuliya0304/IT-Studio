@@ -61,7 +61,13 @@
 					
 					<ul class="mobile__list">
 						<li class="mobile__item">
-							<svg class="mobile__vector"></svg>
+							<div class="mobile__icon-out">
+								<div class="mobile__icon-in">
+									<svg class="mobile__icon">
+										<use href="./images/symbol-defs.svg#icon-project"></use>
+									</svg>
+								</div>
+							</div>
 							<div class="mobile__content">
 								<h3 class="mobile__subtitle">Створення сайтів</h3>
 								<p class="mobile__desc">
@@ -71,21 +77,33 @@
 							</div>
 						</li>
 						<li class="mobile__item">
-							<svg class="mobile__vector"></svg>
+							<div class="mobile__icon-out">
+								<div class="mobile__icon-in">
+									<svg class="mobile__icon">
+										<use href="./images/symbol-defs.svg#icon-project"></use>
+									</svg>
+								</div>
+							</div>
 							<div class="mobile__content">
 								<h3 class="mobile__subtitle">Створення сайтів</h3>
 								<p class="mobile__desc">
-									>Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+									Lorem Ipsum - це текст-"риба", часто використовує у пресі та
 									веб-дизайні.
 								</p>
 							</div>
 						</li>
 						<li class="mobile__item">
-							<svg class="mobile__vector"></svg>
+							<div class="mobile__icon-out">
+								<div class="mobile__icon-in">
+									<svg class="mobile__icon">
+										<use href="./images/symbol-defs.svg#icon-project"></use>
+									</svg>
+								</div>
+							</div>
 							<div class="mobile__content">
 								<h3 class="mobile__subtitle">Створення сайтів</h3>
 								<p class="mobile__desc">
-									>Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+									Lorem Ipsum - це текст-"риба", часто використовує у пресі та
 									веб-дизайні.
 								</p>
 							</div>
@@ -252,7 +270,16 @@
 
 			<!-- підпишись на россилку -->
 			<section class="subscribe">
-				<!-- Напиши код замість коментаря  -->
+				<div class="subscribe__container">
+					<h3 class="subscribe__title">Підпишіться на нашу розсилку</h3>
+					<p class="subscribe__desc">Корисні статті, акції, новини - отримайте все це зараз!</p>
+					<form class="subscribe__form">
+						<input type="email" class="subscribe__input" placeholder="Ваш email" required />
+						<button type="submit" class="subscribe__btn">Підписатися</button>
+					</form>
+					<p class="subscribe__sub">Ми не шлем спам, і не передаємо нікому ваші дані
+					</p>
+				</div>
 			</section>
 		</main>
 
