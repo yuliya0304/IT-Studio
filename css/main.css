@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -429,4 +430,37 @@ body {
   line-height: 1.58;
   padding-top: 35px;
   opacity: 0.6;
+}
+
+.video {
+  padding-top: 70px;
+  padding-bottom: 85px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /* Тим часавом */
+  background-color: #000;
+}
+.video__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.46;
+  padding-bottom: 30px;
+}
+.video__desc {
+  line-height: 1.58;
+  font-size: 16px;
+  padding-bottom: 70px;
+}
+.video__img {
+  background-color: #000;
+}
+.video__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.58;
+  background-color: transparent;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 200px;
+  padding: 20px 40px;
+  color: rgb(255, 255, 255);
 }

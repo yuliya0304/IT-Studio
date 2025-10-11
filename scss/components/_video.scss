@@ -1,0 +1,36 @@
+@use '../utils/variables' as *;
+
+.video {
+    padding-top: 70px;
+    padding-bottom: 85px;
+    text-align: center;
+    color: $secondary-text-color;
+    /* Тим часавом */
+    background-color: #000;
+
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.46;
+        padding-bottom: 30px;
+    }
+
+    &__desc {
+        line-height: 1.58;
+        font-size: 16px;
+        padding-bottom: 70px;
+    }
+    &__img {
+        background-color: #000;
+    }
+    &__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.58;
+        background-color: transparent;
+        border: 1px solid $main-border-color;
+        border-radius: 200px;
+        padding: 20px 40px;
+        color: $secondary-text-color;
+    }
+}
