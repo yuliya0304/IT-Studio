@@ -3,12 +3,10 @@
 .video {
     padding-top: 70px;
     margin-bottom: 170px;
-    border-bottom: 1px solid $main-border-color;
     text-align: center;
     color: $secondary-text-color;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
     background-size: cover;
-    background-position: bottom;
     height: 570px;
 
     &__desc {
@@ -25,7 +23,7 @@
         height: 430px;
         border-radius: 10px;
         text-align: center;
-        z-index: 5;
+        
     }
 
     &__btn {

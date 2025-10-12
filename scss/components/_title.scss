@@ -10,5 +10,12 @@
 	line-height: 1;
 	text-align: center;
 	line-height: 1.46;
-	color: $secondary-text-color;
+	color: $main-text-color;
+	&--color {
+		color: $secondary-text-color;
+	&--color-left {
+		text-align: left;
+	}
+
+	}
 }
