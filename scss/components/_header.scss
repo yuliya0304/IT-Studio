@@ -5,7 +5,20 @@
     border-bottom: 1px solid $header-border;
     position: fixed;
     width: 100vw;
-    background-image: url(../images/desktop/header-dec.gif);
+    background-image: 
+        url(../images/desktop/header-dec.gif),
+        url('https://cdn.pixabay.com/photo/2017/01/31/13/14/confetti-2020630_1280.png'); // Festive confetti overlay
+    background-size: cover, contain;
+    background-repeat: no-repeat, repeat-x;
+    background-position: center, top;
+    box-shadow: 0 0 20px 5px gold; // Festive glow
+    animation: sparkle 1.5s infinite alternate;
+    z-index: 1;
+
+    @keyframes sparkle {
+        from { text-shadow: 0 0 8px #fff700, 0 0 12px #ff00cc; }
+        to { text-shadow: 0 0 20px #fff700, 0 0 24px #ff00cc; }
+    }
 
     &__container{
         display: flex;
@@ -19,15 +32,21 @@
         color: $secondary-text-color;
         font-weight: 500;
         position: relative;
+        transition: color 0.3s;
+        &:hover {
+            color: gold;
+            text-shadow: 0 0 5px #fff700;
+        }
         &--current::before{
             content: "";
             width: 107px;
             height: 2px;
             display: block;
             position: absolute;
-            background-color: $secondary-text-color;
+            background-color: gold; // Festive underline
             bottom: -40px;
             left: 0;
+            box-shadow: 0 0 8px gold;
         }
     }
 }
