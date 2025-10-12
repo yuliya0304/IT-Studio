@@ -6,6 +6,7 @@
     position: fixed;
     width: 100vw;
     background-image: url(../images/desktop/header-dec.gif);
+    background: linear-gradient(90deg,rgba(50,50,50,0.3) 44%, rgba(151,186,255,0.3) 50.34%, rgba(151,186,255,0.3) 85%, rgba(50,50,50,0.3) 91%);
 
     &__container{
         display: flex;
