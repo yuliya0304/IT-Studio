@@ -371,17 +371,13 @@ body {
 
 .video {
   padding-top: 70px;
-  padding-bottom: 85px;
+  padding-bottom: 105px;
   text-align: center;
   color: rgb(255, 255, 255);
   /* Тим часавом */
-  background-color: #000;
-}
-.video__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.46;
-  padding-bottom: 30px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
+  height: 570px;
+  background-size: cover;
 }
 .video__desc {
   line-height: 1.58;
@@ -389,7 +385,12 @@ body {
   padding-bottom: 70px;
 }
 .video__img {
-  background-color: #000;
+  margin: 0 auto;
+  background-image: url(../images/desktop/video.png);
+  width: 970px;
+  height: 430px;
+  border-radius: 10px;
+  text-align: center;
 }
 .video__btn {
   font-weight: 500;
@@ -401,6 +402,8 @@ body {
   padding: 20px 40px;
   color: rgb(255, 255, 255);
   /* Як поставити текст по центру? */
+  position: relative;
+  bottom: -165px;
 }
 
 .subscribe {
@@ -441,6 +444,9 @@ body {
   color: #323232;
   width: 100%;
 }
+.subscribe__input::-moz-placeholder {
+  color: rgb(153, 153, 153);
+}
 .subscribe__input::placeholder {
   color: rgb(153, 153, 153);
 }
@@ -468,129 +474,47 @@ body {
 
 .footer {
   padding-top: 70px;
-  padding-bottom: 85px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  /* Тим часавом */
-  background-image: url(../images/desktop/hero-bg.jpg);
-  background-size: cover;
+  padding-bottom: 30px;
 }
-.video__desc {
-  line-height: 1.58;
-  font-size: 16px;
-  padding-bottom: 70px;
-}
-.video__img {
-  background-image: url(../images/desktop/video.png);
-  width: 970px;
-  height: 430px;
-  border-radius: 10px;
-  text-align: center;
-}
-.video__btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.58;
-  background-color: transparent;
-  border: 1px solid rgb(224, 224, 224);
-  border-radius: 200px;
-  padding: 20px 40px;
-  color: rgb(255, 255, 255);
-  /* Як поставити текст по центру? */
-  position: relative;
-  bottom: -165px;
-}
-.subscribe {
-  background: #fff;
-  padding: 60px 0 0 0;
-  text-align: center;
-  font-weight: 400;
-}
-.subscribe__container {
-  max-width: 700px;
-  margin: 0 auto;
+.footer__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-.subscribe__title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: rgb(50, 50, 50);
+.footer__icon {
+  width: 15px;
+  height: 15px;
 }
-.subscribe__desc {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 158%;
-  letter-spacing: 0;
-  color: rgb(153, 153, 153);
-  text-align: center;
-  margin-bottom: 30px;
-}
-.subscribe__form {
+.footer__columns {
   display: flex;
-  width: 489px;
-  height: 45px;
-  background: #fff;
-  border: none;
-  box-shadow: 0 0 10px rgba(111, 111, 111, 0.2509803922);
-  border-radius: 40px;
-  overflow: hidden;
-  margin-bottom: 24px;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
-.subscribe__form .subscribe__input {
-  width: auto;
-  height: 45px;
-  flex: 1 1 auto;
-  border: none;
-  outline: none;
-  padding: 20px 28px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+}
+.footer__link {
   line-height: 158%;
-  letter-spacing: 0;
-  border-radius: 40px 0 0 40px;
-  background: #fff;
   color: rgb(50, 50, 50);
 }
-.subscribe__form .subscribe__input::-moz-placeholder {
-  color: rgb(153, 153, 153);
-  opacity: 1;
-}
-.subscribe__form .subscribe__input::placeholder {
-  color: rgb(153, 153, 153);
-  opacity: 1;
-}
-.subscribe__form .subscribe__btn {
-  background: rgb(73, 133, 255);
-  color: #fff;
-  border: none;
-  width: 190px;
-  height: 45px;
-  flex: none;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0;
-  text-align: center;
-  border-radius: 0 40px 40px 0;
-  cursor: pointer;
-  transition: background 0.2s;
-  box-shadow: 0 0 10px rgba(111, 111, 111, 0.2509803922);
-}
-.subscribe__form .subscribe__btn:hover {
-  background: rgb(22, 98.8131868132, 255);
-}
-.subscribe__sub {
-  color: rgb(50, 50, 50);
-  font-family: "Montserrat", sans-serif;
+.footer__copyright {
   font-size: 13px;
   line-height: 158%;
-  letter-spacing: 0;
   text-align: center;
-  margin-top: 20px;
-  opacity: 0.6;
-  padding-bottom: 85px;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
 }

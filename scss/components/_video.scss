@@ -2,11 +2,12 @@
 
 .video {
     padding-top: 70px;
-    padding-bottom: 85px;
+    padding-bottom: 105px;
     text-align: center;
     color: $secondary-text-color;
     /* Тим часавом */
-    background-image: url(../images/desktop/hero-bg.jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
+    height: 570px;
     background-size: cover;
 
     &__desc {
@@ -14,7 +15,9 @@
         font-size: 16px;
         padding-bottom: 70px;
     }
+
     &__img {
+        margin: 0 auto;
         background-image: url(../images/desktop/video.png);
         width: 970px;
         height: 430px;
@@ -22,6 +25,7 @@
         text-align: center;
 
     }
+
     &__btn {
         font-weight: 500;
         font-size: 16px;
