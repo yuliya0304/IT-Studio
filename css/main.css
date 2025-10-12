@@ -178,6 +178,9 @@ body {
   line-height: 1;
   text-align: center;
   line-height: 1.46;
+  color: rgb(50, 50, 50);
+}
+.title--color {
   color: rgb(255, 255, 255);
 }
 
@@ -371,15 +374,16 @@ body {
 
 .video {
   padding-top: 70px;
-  padding-bottom: 105px;
+  padding-bottom: 165px;
+  border-bottom: 1px solid rgb(224, 224, 224);
   text-align: center;
   color: rgb(255, 255, 255);
   /* Тим часавом */
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
-  height: 570px;
   background-size: cover;
 }
 .video__desc {
+  padding-top: 30px;
   line-height: 1.58;
   font-size: 16px;
   padding-bottom: 70px;
@@ -391,6 +395,7 @@ body {
   height: 430px;
   border-radius: 10px;
   text-align: center;
+  z-index: 5;
 }
 .video__btn {
   font-weight: 500;
@@ -517,4 +522,47 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 30px;
+}
+
+.works {
+  padding-top: 100px;
+  padding-bottom: 170px;
+  text-align: center;
+}
+.works__wrapper {
+  background-image: linear-gradient(to right, rgb(80, 77, 194), rgb(95, 18, 208));
+  display: flex;
+  justify-content: space-between;
+}
+.works__list {
+  padding-top: 70px;
+  display: flex;
+  text-align: start;
+  gap: 30px;
+}
+.works__image {
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+.works__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.58;
+  color: rgb(0, 0, 0);
+  padding-bottom: 10px;
+}
+.works__span {
+  color: rgb(73, 133, 255);
+}
+.works__desc {
+  font-size: 16px;
+  color: rgb(153, 153, 153);
+  padding-bottom: 47px;
+}
+.works__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.58;
+  color: rgb(73, 133, 255);
+  text-decoration: underline;
 }

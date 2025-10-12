@@ -2,15 +2,16 @@
 
 .video {
     padding-top: 70px;
-    padding-bottom: 105px;
+    padding-bottom: 165px;
+    border-bottom: 1px solid $main-border-color;
     text-align: center;
     color: $secondary-text-color;
     /* Тим часавом */
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
-    height: 570px;
     background-size: cover;
 
     &__desc {
+        padding-top: 30px;
         line-height: 1.58;
         font-size: 16px;
         padding-bottom: 70px;
@@ -23,6 +24,7 @@
         height: 430px;
         border-radius: 10px;
         text-align: center;
+        z-index: 5;
 
     }
 
