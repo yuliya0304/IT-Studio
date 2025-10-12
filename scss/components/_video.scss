@@ -6,14 +6,8 @@
     text-align: center;
     color: $secondary-text-color;
     /* Тим часавом */
-    background-color: #000;
-
-    &__title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.46;
-        padding-bottom: 30px;
-    }
+    background-image: url(../images/desktop/hero-bg.jpg);
+    background-size: cover;
 
     &__desc {
         line-height: 1.58;
@@ -22,7 +16,12 @@
     }
 
     &__img {
-        background-color: #000;
+        background-image: url(../images/desktop/video.png);
+        width: 970px;
+        height: 430px;
+        border-radius: 10px;
+        text-align: center;
+
     }
 
     &__btn {
@@ -35,5 +34,7 @@
         padding: 20px 40px;
         color: $secondary-text-color;
         /* Як поставити текст по центру? */
+        position: relative;
+        bottom: -165px;
     }
 }

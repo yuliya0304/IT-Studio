@@ -180,7 +180,7 @@ body {
   line-height: 1;
   text-align: center;
   line-height: 1.46;
-  color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
 }
 
 .header {
@@ -238,53 +238,41 @@ body {
   color: rgb(255, 255, 255);
 }
 
-
-.footer {
+.video {
   padding-top: 70px;
-  padding-bottom: 30px;
-}
-.footer__container {
-  display: flex;
-  flex-direction: column;
-}
-.footer__icon {
-  width: 15px;
-  height: 15px;
-}
-.footer__columns {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding-bottom: 70px;
-  border-bottom: 1px solid rgb(224, 224, 224);
-}
-.footer__list {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.footer__item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.footer__title {
-  font-weight: 600;
-  font-size: 18px;
-  color: rgb(0, 0, 0);
-  margin-bottom: 35px;
-}
-.footer__link {
-  line-height: 158%;
-  color: rgb(50, 50, 50);
-}
-.footer__copyright {
-  font-size: 13px;
-  line-height: 158%;
+  padding-bottom: 85px;
   text-align: center;
-  color: rgb(0, 0, 0);
-  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  /* Тим часавом */
+  background-image: url(../images/desktop/hero-bg.jpg);
+  background-size: cover;
 }
+.video__desc {
+  line-height: 1.58;
+  font-size: 16px;
+  padding-bottom: 70px;
+}
+.video__img {
+  background-image: url(../images/desktop/video.png);
+  width: 970px;
+  height: 430px;
+  border-radius: 10px;
+  text-align: center;
+}
+.video__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.58;
+  background-color: transparent;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 200px;
+  padding: 20px 40px;
+  color: rgb(255, 255, 255);
+  /* Як поставити текст по центру? */
+  position: relative;
+  bottom: -165px;
+}
+
 .subscribe {
   background: #fff;
   padding: 60px 0 0 0;
@@ -378,4 +366,51 @@ body {
   margin-top: 20px;
   opacity: 0.6;
   padding-bottom: 85px;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__icon {
+  width: 15px;
+  height: 15px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 35px;
+}
+.footer__link {
+  line-height: 158%;
+  color: rgb(50, 50, 50);
+}
+.footer__copyright {
+  font-size: 13px;
+  line-height: 158%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 30px;
 }
