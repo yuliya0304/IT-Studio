@@ -14,5 +14,11 @@
 	border: 0;
 	line-height: 1;
 	box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+		transition: all 0.5s ease;
+	&:hover {
+		transition: all 0.5s ease;
+		background-color: transparent;
+		box-shadow: 0px 0px 25px 0 #f95bf6, 0 0px 15px 0px #532cf9 ,inset 0 0px 20px 0px #4400ff;
+	}
 
 }
