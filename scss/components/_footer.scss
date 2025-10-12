@@ -3,6 +3,7 @@
 .footer{
     padding-top: 70px;
     padding-bottom: 30px;
+    background-color: $background-color;
 
     &__container{
         display: flex;
@@ -12,6 +13,7 @@
     &__icon {
         width: 15px;
         height: 15px;
+        fill: $main-text-color;
     }
 
     &__columns {
@@ -50,7 +52,7 @@
         font-size: 13px;
         line-height: 158%;
         text-align: center;
-        color: $title-color;
+        color: $main-text-color;
         margin-top: 30px;
     }
 }
