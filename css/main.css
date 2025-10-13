@@ -216,7 +216,7 @@ body {
   border-bottom: 1px solid rgb(161, 161, 161);
   position: fixed;
   width: 100vw;
-  background: linear-gradient(90deg, rgba(50, 50, 50, 0.3) 44%, rgba(151, 186, 255, 0.3) 50.34%, rgba(151, 186, 255, 0.3) 85%, rgba(50, 50, 50, 0.3) 91%);
+  background: linear-gradient(90deg, rgba(50, 50, 50, 0.3) 42%, rgba(151, 186, 255, 0.3) 48.34%, rgba(151, 186, 255, 0.3) 83%, rgba(50, 50, 50, 0.3) 89%);
   background-size: cover, contain;
   background-repeat: no-repeat, repeat-x;
   background-position: center, top;
@@ -501,6 +501,9 @@ body {
   color: #323232;
   width: 100%;
   transition: all 0.5s ease;
+}
+.subscribe__input::-moz-placeholder {
+  color: rgb(153, 153, 153);
 }
 .subscribe__input::placeholder {
   color: rgb(153, 153, 153);
