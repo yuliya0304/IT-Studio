@@ -17,3 +17,16 @@
 		box-shadow: 0px 0px 25px 0 #f95bf6, 0 0px 15px 0px #532cf9 ,inset 0 0px 20px 0px #4400ff;
 	}
 }
+
+@media (max-width:480px) {
+	.button {
+		&--mobile {
+			padding: 20px 70px;
+			font-size: 24px;
+		}
+		&--works {
+			padding: 15px 50px;
+			font-size: 16px;
+		}
+	}
+}

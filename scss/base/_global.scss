@@ -15,18 +15,19 @@ body {
     padding-right: 15px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 400px;
+    width: 480px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 700px;
+    width: 768px;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (max-width: 1140px) {
   .container {
     width: 1140px;
   }
 }
+
