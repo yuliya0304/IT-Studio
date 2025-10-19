@@ -56,3 +56,44 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 1200px) {
+    .footer{
+
+        &__container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        &__columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        &__column {
+            flex-basis: calc((75% - 25px) / 2);
+        }
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .footer{
+
+        &__container{
+            width: 780px;
+            margin: 0 auto;
+        }
+
+        &__columns {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+
+        &__column {
+            width: 100%;
+        }
+    }
+}
