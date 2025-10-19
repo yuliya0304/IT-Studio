@@ -11,7 +11,7 @@
   text-align: center;
   line-height: 1.46;
   color: $main-text-color;
-  &--color {
+  &--works {
     color: $secondary-text-color;
     &--color-left {
       text-align: left;
@@ -34,6 +34,12 @@
   .title {
     &--hero {
       font-size: 20px;
+    }
+    &--mobile {
+      font-size: 25px;
+    }
+    &--works {
+      font-size: 25px;
     }
   }
 }

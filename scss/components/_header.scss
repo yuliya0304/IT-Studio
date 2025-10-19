@@ -47,3 +47,15 @@
         }
     }
 }
+
+@media screen and (min-width:480px) {
+    .header {
+        &__link {
+            color: black;
+        }
+
+        &__list {
+            display: none;
+        }
+    }
+}

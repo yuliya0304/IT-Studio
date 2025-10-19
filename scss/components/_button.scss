@@ -18,3 +18,16 @@
 	}
 
 }
+
+@media (max-width:480px) {
+	.button {
+		&--mobile {
+			padding: 20px 70px;
+			font-size: 24px;
+		}
+		&--works {
+			padding: 15px 50px;
+			font-size: 16px;
+		}
+	}
+}

@@ -197,6 +197,16 @@ body {
   box-shadow: 0px 0px 25px 0 #f95bf6, 0 0px 15px 0px #532cf9, inset 0 0px 20px 0px #4400ff;
 }
 
+@media (max-width: 480px) {
+  .button--mobile {
+    padding: 20px 70px;
+    font-size: 24px;
+  }
+  .button--works {
+    padding: 15px 50px;
+    font-size: 16px;
+  }
+}
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -205,10 +215,10 @@ body {
   line-height: 1.46;
   color: rgb(50, 50, 50);
 }
-.title--color {
+.title--works {
   color: rgb(255, 255, 255);
 }
-.title--color--color-left {
+.title--works--color-left {
   text-align: left;
 }
 .title--standarts {
@@ -218,6 +228,17 @@ body {
 @media (max-width: 1140px) {
   .title--standarts {
     text-align: center;
+  }
+}
+@media (min-width: 320px) {
+  .title--hero {
+    font-size: 20px;
+  }
+  .title--mobile {
+    font-size: 25px;
+  }
+  .title--works {
+    font-size: 25px;
   }
 }
 .header {
@@ -270,6 +291,14 @@ body {
   left: 0;
 }
 
+@media screen and (min-width: 480px) {
+  .header__link {
+    color: black;
+  }
+  .header__list {
+    display: none;
+  }
+}
 .hero {
   background-image: url(../images/desktop/hero-bg.jpg);
   background-color: rgb(0, 0, 0);
@@ -350,6 +379,14 @@ body {
   text-align: left;
 }
 
+@media (max-width: 480px) {
+  .mobile__list {
+    flex-direction: column;
+  }
+  .mobile__icon-out {
+    bottom: 0;
+  }
+}
 .standarts {
   background-color: rgb(246, 246, 248);
   padding-top: 100px;
@@ -696,4 +733,99 @@ body {
   line-height: 1.58;
   color: rgb(73, 133, 255);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .works__wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .works__list {
+    flex-direction: column;
+  }
+  .works__item {
+    text-align: center;
+  }
+  .works__box {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+.nav_menu {
+  display: none;
+}
+
+input[type=checkbox],
+label {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  nav {
+    order: 1;
+    vw: 100%;
+    vh: 100%;
+  }
+  input[type=checkbox]:checked ~ .nav_menu {
+    display: block;
+  }
+  label {
+    display: block;
+    height: 30px;
+    position: relative;
+    top: 15px;
+  }
+  label span,
+  label span::before,
+  label span::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    right: 0;
+    transition: 0.3s;
+  }
+  label span::before {
+    top: -8px;
+  }
+  label span::after {
+    top: 8px;
+  }
+}
+input[type=checkbox]:checked ~ .header__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_menu {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 12px 8px #ececec;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.nav_menu li {
+  margin: 15px 0;
+}
+
+input[type=checkbox]:checked ~ label span {
+  transform: rotate(-45deg);
+}
+
+input[type=checkbox]:checked ~ label span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+input[type=checkbox]:checked ~ label span::after {
+  top: 0;
+  transform: rotate(90deg);
 }
