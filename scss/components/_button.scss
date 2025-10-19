@@ -1,9 +1,5 @@
 @use '../utils/variables' as *;
 
-// =================
-// BUTTON STYLES
-// =================
-
 .button {
 	background-color: $accent-color;
 	color: $secondary-text-color;
@@ -17,7 +13,7 @@
 		transition: all 0.5s ease;
 	&:hover {
 		transition: all 0.5s ease;
-		background-color: transparent;
+		background-color: rgb(0, 0, 0);
 		box-shadow: 0px 0px 25px 0 #f95bf6, 0 0px 15px 0px #532cf9 ,inset 0 0px 20px 0px #4400ff;
 	}
 
