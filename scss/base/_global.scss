@@ -1,9 +1,5 @@
 @use '../utils/variables' as *;
 
-// =================
-// GLOBAL STYLES
-// =================
-
 body {
 	font-size: 14px;
 	color: $main-text-color;
@@ -12,6 +8,25 @@ body {
 	background-color: $subtitle-border;
 }
 .container {
-	width: 1110px;
-	margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .container {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .container {
+    width: 1140px;
+  }
 }
