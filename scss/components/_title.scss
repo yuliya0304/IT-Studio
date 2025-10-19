@@ -30,3 +30,10 @@
 		}
 	}
 }
+@media (min-width: 320px) {
+  .title {
+    &--hero {
+      font-size: 20px;
+    }
+  }
+}
