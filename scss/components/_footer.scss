@@ -60,19 +60,15 @@
 @media (max-width: 1200px) {
     .footer{
 
-        &__container{
-            width: 1200px;
-            margin: 0 auto;
-        }
-
         &__columns {
-            display: flex;
             flex-wrap: wrap;
+            justify-content: space-around;
             gap: 25px;
         }
 
         &__column {
-            flex-basis: calc((75% - 25px) / 2);
+            flex-basis: calc(50% - (25px / 2)); 
+            min-width: 250px;
         }
     }
 }
@@ -80,20 +76,14 @@
 @media screen and (max-width: 780px) {
     .footer{
 
-        &__container{
-            width: 780px;
-            margin: 0 auto;
-        }
-
         &__columns {
-            display: flex;
             flex-direction: column;
-            flex-wrap: wrap;
             gap: 35px;
         }
 
         &__column {
             width: 100%;
+            flex-basis: auto;
         }
     }
 }
