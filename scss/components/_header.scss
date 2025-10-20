@@ -48,10 +48,8 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
-        z-index: 0;
-        background-color: transparent;
         &__link {
             color: black;
         }
