@@ -670,7 +670,7 @@ body {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1137px) {
   .video__img {
     width: 650px;
   }
@@ -682,7 +682,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .video__img {
     width: 400px;
   }
