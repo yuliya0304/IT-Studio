@@ -166,19 +166,19 @@ body {
   padding-right: 15px;
 }
 
-@media screen and (max-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1139px) {
   .container {
     width: 768px;
   }
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 767px) {
   .container {
-    width: 1140px;
+    width: 480px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .container {
+    width: 320px;
   }
 }
 .button {
@@ -413,6 +413,26 @@ body {
   text-align: left;
 }
 
+@media screen and (max-width: 1140px) {
+  .mobile__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 11px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mobile__icon-in {
+    width: 60px;
+    height: 60px;
+  }
+  .mobile__icon-out {
+    bottom: 0;
+  }
+  .mobile__content {
+    text-align: center;
+  }
+}
 @media (max-width: 480px) {
   .mobile__list {
     -webkit-box-orient: vertical;
@@ -650,6 +670,28 @@ body {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 1140px) {
+  .video__img {
+    width: 650px;
+  }
+  .video__btn {
+    gap: 14px;
+    font-size: 14px;
+  }
+  .title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .video__img {
+    width: 400px;
+  }
+  .video__btn {
+    padding: 0;
+    width: 210px;
+    height: 75px;
+  }
+}
 .subscribe {
   padding-top: 85px;
   padding-bottom: 85px;
@@ -1007,4 +1049,4 @@ input[type=checkbox]:checked ~ label span::after {
 .nav__link:hover {
   color: rgb(73, 133, 255);
   font-size: 45px;
-}
+}/*# sourceMappingURL=main.css.map */

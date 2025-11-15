@@ -1,76 +1,98 @@
 @use '../utils/variables' as *;
 .mobile {
-    padding: 110px 0px 105px 0px;
-    text-align: center;
+	padding: 110px 0px 105px 0px;
+	text-align: center;
 
-    &__text {
-        font-size: 16px;
-        text-align: center;
-        color: $subtitle-color;
-        font-weight: 400;
-        padding-top: 32px;
-    }
-    
-    &__list {
-        display: flex;
-        gap: 27px;
-        padding-bottom: 55px;
-        padding-top: 70px;
-    }
+	&__text {
+		font-size: 16px;
+		text-align: center;
+		color: $subtitle-color;
+		font-weight: 400;
+		padding-top: 32px;
+	}
 
-    &__subtitle {
-        font-size: 18px;
-        padding-bottom: 12px;
-        color: $title-color;
-        font-weight: 600;
-    }
+	&__list {
+		display: flex;
+		gap: 27px;
+		padding-bottom: 55px;
+		padding-top: 70px;
+	}
 
-    &__desc {
-        font-weight: 400;
-        color: $subtitle-color;
-    }
+	&__subtitle {
+		font-size: 18px;
+		padding-bottom: 12px;
+		color: $title-color;
+		font-weight: 600;
+	}
 
-    &__icon {
-        width: 40px;
-        height: 40px;
-        fill: $accent-color;
-    }
+	&__desc {
+		font-weight: 400;
+		color: $subtitle-color;
+	}
 
-    &__icon-in {
-        border: 1px solid $accent-color;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 90px;
-        height: 90px;
-    }
+	&__icon {
+		width: 40px;
+		height: 40px;
+		fill: $accent-color;
+	}
 
-    &__icon-out {
-        border: 1px solid $main-border-color ;
-        border-radius: 50%;
-        display: inline-block;
-        padding: 9px;
-        position: relative;
-        bottom: 37px;
-    }
+	&__icon-in {
+		border: 1px solid $accent-color;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90px;
+		height: 90px;
+	}
 
-    &__item {
-        display: flex;
-        gap: 17px;
-        text-align: left;
-    }
+	&__icon-out {
+		border: 1px solid $main-border-color;
+		border-radius: 50%;
+		display: inline-block;
+		padding: 9px;
+		position: relative;
+		bottom: 37px;
+	}
+
+	&__item {
+		display: flex;
+		gap: 17px;
+		text-align: left;
+	}
 }
 
-@media (max-width:480px) {
-    .mobile {
-        &__list {
-            flex-direction: column;
-        }
-        
-        &__icon-out {
-            bottom: 0;
-        }
-    }
-   
+@media screen and (max-width: 1140px) {
+	.mobile {
+		&__item {
+			flex-wrap: wrap;
+			gap: 11px;
+			justify-content: center;
+		}
+
+		&__icon-in {
+			width: 60px;
+			height: 60px;
+		}
+
+		&__icon-out {
+			bottom: 0;
+		}
+
+		&__content {
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.mobile {
+		&__list {
+			flex-direction: column;
+		}
+
+		&__icon-out {
+			bottom: 0;
+		}
+	}
 }
