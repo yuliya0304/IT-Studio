@@ -47,6 +47,30 @@
     }
 }
 
+@media screen and (max-width:780px) {
+    .works {
+        &__wrapper {
+            flex-direction: column;
+            gap: 30px
+        }
+        
+        &__list {
+            flex-direction: column;
+        }
+
+        &__item {
+            text-align: center;
+        }
+
+        &__box {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+    }
+}
+
 @media screen and (max-width:480px) {
     .works {
         &__wrapper {
