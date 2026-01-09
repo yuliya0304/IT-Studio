@@ -154,7 +154,6 @@ body {
   color: rgb(50, 50, 50);
   font-family: "Montserrat", sans-serif;
   line-height: 1.58;
-  background-color: rgb(224, 224, 224);
 }
 
 .container {
@@ -539,8 +538,6 @@ body {
 .projects__list {
   display: flex;
   gap: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
@@ -548,7 +545,6 @@ body {
   padding-top: 70px;
   margin-bottom: 170px;
   text-align: center;
-  color: rgb(255, 255, 255);
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
   background-size: cover;
   height: 570px;
@@ -616,7 +612,6 @@ body {
   padding-top: 85px;
   padding-bottom: 85px;
   text-align: center;
-  border-top: 1px solid rgb(224, 224, 224);
 }
 .subscribe__title {
   font-size: 18px;
@@ -650,9 +645,6 @@ body {
   color: #323232;
   width: 100%;
   transition: all 0.5s ease;
-}
-.subscribe__input::-moz-placeholder {
-  color: rgb(153, 153, 153);
 }
 .subscribe__input::placeholder {
   color: rgb(153, 153, 153);
