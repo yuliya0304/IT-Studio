@@ -545,7 +545,7 @@ body {
   padding-top: 70px;
   margin-bottom: 170px;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/hero-bg.jpg);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15)), url(../images/desktop/video-bg.jpg);
   background-size: cover;
   height: 570px;
 }
@@ -612,7 +612,6 @@ body {
   padding-top: 85px;
   padding-bottom: 85px;
   text-align: center;
-  background-color: rgb(246, 246, 248);
 }
 .subscribe__title {
   font-size: 18px;
